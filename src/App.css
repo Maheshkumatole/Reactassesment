@@ -1,0 +1,36 @@
+.links{
+  padding:100px;
+}
+.link{
+  margin: 0 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:80px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.img{
+  height:100px;
+  width:100px;
+}
+input{
+  height:40px;
+  width:100%;
+}
+button{
+  width:100px;
+  height: 40px;
+
+}
