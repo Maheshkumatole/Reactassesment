@@ -31,10 +31,10 @@ function Example(props) {
     <div className='container' style={{marginTop:250,border: '1px solid black',width:500,height:300,paddingTop:80}}>
     <header>LOGIN</header>
     <div className='form-group'>
-      <input type='text' placeholder='ENTER USERNAME' name='username' class="form-control"  onChange={e => setuserName(e.target.value)} style={{width:400}}/>
+      <input type='text' placeholder='ENTER USERNAME' name='username' class="form-control"  onChange={e => setuserName(e.target.value)} style={{width:400}} required/>
     </div>
      <div className='form-group'>
-     <input type='text' name='password' placeholder='ENTER PASSWORD' class="form-control"  onChange={e => setpassword(e.target.value)} style={{width:400}}/>
+     <input type='text' name='password' placeholder='ENTER PASSWORD' class="form-control"  onChange={e => setpassword(e.target.value)} style={{width:400}} required/>
    </div>
    <div className='form-group'>
    <button onClick={submitValue}>Submit</button>
